@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>test1</name>
+  <version>0.9.8</version>
+  <description>test</description>
+
+  <author email="byeonggil.yoo@lge.com">BYEONGGIL YOO</author>
+  <maintainer email="aar.task@lge.com">LGE</maintainer>
+
+  <license>BSD</license>
+  <url type="website">http://www.lge.com</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>std_msgs</depend>
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+ </package>
